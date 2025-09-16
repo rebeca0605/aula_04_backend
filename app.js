@@ -29,3 +29,9 @@ app.use((request, response, next) => {
     app.use(cors())
     next() // Próximo, carregar os próximos endpoints
 })
+
+//EndPoints
+
+app.get('/v1/estados', function(request, response){
+    
+})
